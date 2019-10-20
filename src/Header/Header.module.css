@@ -2,11 +2,11 @@
     height: 60px;
     padding-top: 10px;
     width: 100%;
-    /*position: absolute;*/
     top: 0;
     left: 0;
     right: 0;
     z-index: 2;
+    background-color: #bf2000;
 
 }
 

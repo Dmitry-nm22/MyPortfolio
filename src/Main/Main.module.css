@@ -3,14 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rosybrown;
+
 }
 
 .container{
     width: 80%;
-    /*border: 1px solid;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
