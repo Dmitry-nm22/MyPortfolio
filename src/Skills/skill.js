@@ -5,7 +5,7 @@ function Skill() {
     return (
 
 
-        <div className={styles.mainContent}>
+        <div className={styles.Container}>
             <div className={styles.skill}>
                 <div className={styles.photo}></div>
                 <span>react</span>
