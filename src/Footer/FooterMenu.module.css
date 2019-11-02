@@ -1,0 +1,11 @@
+
+.Menu{
+    display: flex;
+}
+.list{
+    width: 15%;
+    height: 100%;
+    border: 1px solid;
+    background-color: #bf2000;
+}
+

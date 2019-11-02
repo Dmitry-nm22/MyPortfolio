@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import FooterMenu from "./FooterMenu";
 
 function Footer() {
   return (
@@ -7,10 +8,10 @@ function Footer() {
       <div className={styles.content}>
         <span>Науменко Дмитрий</span>
         <div className={styles.innerContent}>
-          <div className={styles.list}></div>
-          <div className={styles.list}></div>
-          <div className={styles.list}></div>
-          <div className={styles.list}></div>
+        <FooterMenu/>
+        <FooterMenu/>
+        <FooterMenu/>
+        <FooterMenu/>
         </div>
         <span>© Все права защищены</span>
       </div>
