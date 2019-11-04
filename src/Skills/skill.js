@@ -5,7 +5,7 @@ function Skill() {
     return (
 
 
-        <div className={styles.Container}>
+
             <div className={styles.skill}>
                 <div className={styles.photo}></div>
                 <span>react</span>
@@ -13,7 +13,7 @@ function Skill() {
                     <div><span>Подробное описание навыка</span></div>
                 </div>
             </div>
-        </div>
+
     )
 
 }

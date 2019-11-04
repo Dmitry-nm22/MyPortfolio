@@ -9,6 +9,7 @@ function Contacts() {
                 <div className={styles.contactInfo}>
                     <input type='text' name='name' placeholder='Name'/>
                     <input type='text' name='email' placeholder='Email'/>
+                    <textarea className={styles.messageArea} placeholder='сообщение'></textarea>
                 </div>
                 <button>Отправить</button>
             </div>

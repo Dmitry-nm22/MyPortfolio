@@ -19,6 +19,8 @@
 
 .contactInfo{
     display: flex;
+    min-height: 30%;
+    min-width: 40%;
     border: 1px solid greenyellow;
     flex-direction: column;
     justify-content: center;
