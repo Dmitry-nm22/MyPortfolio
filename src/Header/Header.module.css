@@ -1,6 +1,6 @@
 .header{
     height: 70px;
-    background: #ef2010;
+    /*background: #ef2010;*/
     display: flex;
     justify-content: center;
 }

@@ -3,27 +3,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    /*background-color: brown;*/
 }
 
 .content{
     display: flex;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     width: 80%;
     min-height: 40%;
     flex-direction: column;
-    justify-content: space-between;
+
     align-items: center;
     flex-wrap: wrap;
 }
 
 .contactInfo{
     display: flex;
-    min-height: 30%;
-    min-width: 40%;
-    border: 1px solid greenyellow;
+    width: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.messageArea{
+    resize: none;
+    height: 100px;
+}
+
+
+.contactInfo button{
+ width: 100px;
+}
+
+.contactInfo input, textarea{
+  width: 100%;
+}
