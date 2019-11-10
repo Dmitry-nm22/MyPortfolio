@@ -1,0 +1,12 @@
+.Container{
+    width: 255px;
+    height: 255px;
+    margin: auto 30px;
+}
+
+.Container img{
+    border-radius: 15px;
+}
+
+
+

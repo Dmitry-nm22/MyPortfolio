@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: brown;*/
+    background-color: #E5E5E5;
 }
 
 .content{
     display: flex;
-    /*border: 1px solid white;*/
+
     width: 80%;
     min-height: 40%;
     flex-direction: column;

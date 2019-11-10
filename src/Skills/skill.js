@@ -1,16 +1,20 @@
 import React from 'react';
 import styles from './Skills.module.css';
+import logo from ".././img/js_img.png"
 
 function Skill() {
     return (
 
-
-
-            <div className={styles.skill}>
-                <div className={styles.photo}></div>
-                <span>react</span>
-                <div className={styles.inner}>
-                    <div><span>Подробное описание навыка</span></div>
+            <div className={styles.OneSkill}>
+                <div className={styles.slider}>
+                    <div className={styles.slider__item}>
+                        <img className={styles.slider__image} src={logo}/>
+                        <div className={styles.slider__text}>JS</div>
+                        <h3 className={styles.slider__title}><br/>разработка на Javascript</h3>
+                        <div className={styles.slider__rating}>
+                            <button className={styles.slider__button}>узнать подробней</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 

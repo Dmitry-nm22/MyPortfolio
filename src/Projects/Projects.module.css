@@ -3,36 +3,62 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: #b564ff;*/
+    background-color: #F6F6F8;
 }
 
 .myProject{
     display: flex;
-    /*border: 1px solid white;*/
     min-height: 80%;
     min-width: 80%;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+.Project__title{
+    width: 350px;
+    height: 35px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    Font-Style: Bold;
+    Font-Size: 36px;
+    Line-Height: 52.66px;
+    Vertical-Align: Top;
+}
+.Project__under__title{
+    width: 730px;
+    height: 31px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    Font-Style: Regular;
+    Font-Size: 16px;
+    Line-Height: 130%;
+    Vertical-Align: Top;
+    color: #999999;
+}
+
+
 .inner{
     display: flex;
-    /*border: 1px solid yellow;*/
     width: 100%;
-    min-height: 400px;
+    min-height: 350px;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .Content{
     display: flex;
     border: 1px solid purple;
-
 }
+
 
 .Container{
     display: flex;
-    /*border: 1px solid green;*/
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -41,11 +67,10 @@
 
 .background{
     display: flex;
-    /*border: 1px solid #ef2010;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 350px;  /*300px*/
+    min-width: 350px;
     min-height: 60%;
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGlmkX_UkGaHPhax-pcVaHDch65_VFr7cwnuts6IvkemXk4hhg9A&s");
 }
@@ -60,6 +85,20 @@
 
 }
 
+.myProject button{
+    margin-bottom: 50px;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background: #4985FF;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.myProject button:hover{
+    background: #3658b0;
+}
 
 @media screen and (max-width: 703px){
     .inner{

@@ -1,18 +1,17 @@
 import React from 'react';
 import styles from './Main.module.css';
+import NavMenu from "./NavMenu";
+
 
 function Main() {
   return (
     <div className={styles.main}>
+      <NavMenu/>
       <div className={styles.container}>
         <div className={styles.greeting}>
-          <span>Привет</span>
-          <span>Меня зовут Науменко Дмитрий</span>
-          <span>Я Front-end разработчик</span>
+        <span>Мы создаем легкие решения сложных задач и проблем</span>
         </div>
-        <div className={styles.photo}>
-          <img src=''/>
-        </div>
+        <button>Наши проекты</button>
       </div>
     </div>
   );
