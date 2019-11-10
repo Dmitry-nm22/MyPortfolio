@@ -8,7 +8,6 @@
 
 .content{
     display: flex;
-
     width: 80%;
     min-height: 40%;
     flex-direction: column;
@@ -20,7 +19,6 @@
     display: flex;
     width: 400px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -32,10 +30,13 @@
 
 .contactInfo button{
  width: 100px;
+    outline: none;
 }
 
 .contactInfo input, textarea{
-  width: 100%;
+    width: 100%;
+    outline: none;
+
 }
 
 @media screen and (max-width: 504px){

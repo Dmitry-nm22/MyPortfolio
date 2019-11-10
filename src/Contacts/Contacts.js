@@ -12,7 +12,6 @@ function Contacts() {
                     <textarea className={styles.messageArea} placeholder='сообщение'></textarea>
                     <button>Отправить</button>
                 </div>
-
             </div>
         </div>
     );
