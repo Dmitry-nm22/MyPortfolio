@@ -9,7 +9,7 @@ function Main() {
       <NavMenu/>
       <div className={styles.container}>
         <div className={styles.greeting}>
-        <span>Я создаю легкие решения сложных задач и проблем</span>
+        <span>Создание легких решений  для сложных задач</span>
         </div>
         <button>Наши проекты</button>
       </div>

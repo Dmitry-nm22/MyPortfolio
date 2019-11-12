@@ -17,6 +17,8 @@
     justify-content: space-between;
 }
 
+.title{}
+
 .innerContent{
     width: 40%;
     height: 20%;

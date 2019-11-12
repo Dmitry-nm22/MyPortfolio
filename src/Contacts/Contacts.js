@@ -5,7 +5,7 @@ function Contacts() {
     return (
         <div className={styles.contacts}>
             <div className={styles.content}>
-                <span>Контакты</span>
+                <span className={styles.title}>Контакты</span>
                 <div className={styles.contactInfo}>
                     <input type='text' name='name' placeholder='Name'/>
                     <input type='text' name='email' placeholder='Email'/>

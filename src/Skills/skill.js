@@ -2,23 +2,25 @@ import React from 'react';
 import styles from './Skills.module.css';
 import logo from ".././img/js_img.png"
 
-function Skill() {
-    return (
+class  Skill extends React.Component {
+    render = () => {
+        return (
 
-            <div className={styles.OneSkill}>
+            <div className={styles.oneSkill} style={this.props.style}>
                 <div className={styles.slider}>
                     <div className={styles.slider__item}>
-                        <img className={styles.slider__image} src={logo}/>
-                        <div className={styles.slider__text}>JS</div>
-                        <h3 className={styles.slider__title}><br/>разработка на Javascript</h3>
-                        <div className={styles.slider__rating}>
+                        <div>
+                            <span className={styles.slider__text}>{this.props.text}</span>
+                            <h3 className={styles.slider__title}>{this.props.title}</h3>
                             <button className={styles.slider__button}>узнать подробней</button>
                         </div>
+
                     </div>
                 </div>
             </div>
 
-    )
+        )
+    }
 
 }
 export default Skill;

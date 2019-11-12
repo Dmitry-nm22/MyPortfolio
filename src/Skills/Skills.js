@@ -8,22 +8,39 @@ import logo_angular from ".././img/angular.png"
 class  Skills extends React.Component {
 
     render = () => {
+
+
+        const logoJS = {
+            backgroundImage: 'url(' + logo_js + ')',
+        };
+
+        const logoReact = {
+            backgroundImage: 'url(' + logo_react + ')',
+        };
+
+        const logoAngular = {
+            backgroundImage: 'url(' + logo_angular + ')',
+        };
+
+
+
+
         return (
             <div className={styles.skills}>
                 <div className={styles.header}>
-                    <span>Работаю с несколькими языками  программирования</span>
+                    <span className={styles.span__title}>Работа с несколькими языками  программирования и фреймворками</span>
                     <div className={styles.mainContent}>
-                        <Skill src={logo_js}
+                        <Skill style={logoJS}
                                title='разработка на Javascript'
                                text='JS'
                         />
 
-                        <Skill src={logo_react}
+                        <Skill style={logoReact}
                                title='разработка на React'
                                text='React'
                         />
 
-                        <Skill src={logo_angular}
+                        <Skill style={logoAngular}
                                title='Использование фреймворка Angular'
                                text='Angular'
                         />

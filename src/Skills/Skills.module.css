@@ -8,6 +8,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.oneSkill{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
 .header{
     width: 80%;
     min-height: 80%;
@@ -15,16 +22,18 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
-.header span{
+.header .span__title {
     font-family: 'Montserrat', sans-serif;
-    Font-Style: Bold;
-    Font-Size: 36px;
-    Line-Height: 52.66px;
-    Vertical-Align: Top;
+    font-size: 32px;
+    line-height: 1.2;
+    vertical-align: top;
     color: #323232;
 }
+
+
 
 
 .mainContent{
@@ -61,12 +70,14 @@
     justify-content: space-between;
     width:  250px;
     min-height: 200px;
-    margin-right: 20px;
-    margin-bottom: 20px;
     padding: 30px;
     box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    /*background: url(".././img/js_img.png") center / cover;*/
+
+}
+
+.slider__item div{
+    position: relative;
 }
 
 .slider__item:before{
@@ -74,7 +85,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 0;
     /*-1*/
     width: 100%;
     height: 100%;
@@ -86,19 +97,41 @@
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 2;
+    z-index: 1;
+
     /*-2*/
 }
 
+.slider__text{
+    color: white;
+}
 
 
 .slider__item:hover:before{
     background:rgba(64, 101, 255, 0.86);
 }
 
+
+.slider__button{
+    border-radius: 30px;
+
+}
+
 @media screen and (max-width: 542px){
     .skill{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .header span{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 624px){
+    .mainContent{
+        justify-content: center;
     }
 }
 

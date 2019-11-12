@@ -1,5 +1,5 @@
 .projects{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +17,7 @@
 }
 
 .Project__title{
-    width: 350px;
-    height: 35px;
+
     margin-top: 35px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -28,8 +27,7 @@
     Vertical-Align: Top;
 }
 .Project__under__title{
-    width: 730px;
-    height: 31px;
+
     margin-top: 70px;
     margin-bottom: 15px;
     text-align: center;

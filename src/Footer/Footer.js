@@ -8,7 +8,7 @@ class  Footer extends React.Component {
     return (
         <div className={styles.footer}>
           <div className={styles.content}>
-            <span>Науменко Дмитрий</span>
+            <span className={styles.title}>Науменко Дмитрий</span>
             <div className={styles.innerContent}>
               <FooterMenu className="fab fa-instagram" href='https://www.instagram.com/dmitry.nm/' />
               <FooterMenu className="fab fa-whatsapp" />
