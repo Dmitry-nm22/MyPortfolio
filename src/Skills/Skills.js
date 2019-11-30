@@ -29,29 +29,16 @@ class  Skills extends React.Component {
     }
 
     nextSlide = () => {
-
-
-        if (this.state.currentIndex === 1
-        ) {
-
-            this.setState({
-                currentIndex: this.state.currentIndex + 1,
-                disablePrev: true
+        this.setState({
+            currentIndex: this.state.currentIndex + 1
         })
-        }else{
-            this.setState({
-                disablePrev: false
-            })
-        }
-
     }
 
     prevSlide = () => {
 
 
         this.setState({
-            currentIndex: this.state.currentIndex - 1,
-            disablePrev: true
+            currentIndex: this.state.currentIndex - 1
         })
 
     }
