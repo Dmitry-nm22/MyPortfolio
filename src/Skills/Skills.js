@@ -22,24 +22,39 @@ class  Skills extends React.Component {
             {id:5, url: logo_redux, title:'Использование библиотеки Redux', text:'Redux'}
         ],
         currentIndex: 0,
-        disablePrev: false,
+        disablePrev: true,
         disableNext: false
-
-
     }
 
+
     nextSlide = () => {
-        this.setState({
-            currentIndex: this.state.currentIndex + 1
-        })
+        if (this.state.currentIndex < this.state.skill.length - 1) {
+            this.setState({
+                currentIndex: this.state.currentIndex + 1,
+                disablePrev: false
+            })
+        }
+        if(this.state.currentIndex === this.state.skill.length - 1){
+            this.setState({
+                disableNext: true
+            })
+        }
     }
 
     prevSlide = () => {
 
+        if (this.state.currentIndex > 0) {
+            this.setState({
+                currentIndex: this.state.currentIndex - 1,
+                disableNext: false
+            })
+        }
+        if(this.state.currentIndex === 0){
+            this.setState({
+                disablePrev: true
+            })
+        }
 
-        this.setState({
-            currentIndex: this.state.currentIndex - 1
-        })
 
     }
 
@@ -112,7 +127,7 @@ class  Skills extends React.Component {
 
                          {MySkill[this.state.currentIndex]}
 
-                        <button onClick={this.nextSlide}>next</button>
+                        <button onClick={this.nextSlide} disabled={this.state.disableNext}>next</button>
 
                     </div>
                 </div>
