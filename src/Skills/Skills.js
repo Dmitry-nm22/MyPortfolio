@@ -14,12 +14,15 @@ class  Skills extends React.Component {
 
     state ={
         skill: [
-            {id:0, url: logo_js, title:'разработка на Javascript', text:'JS'},
-            {id:1, url: logo_react, title:'Использование библиотеки  React', text:'react'},
-            {id:2, url: logo_angular, title:'Использование фреймворка Angular', text:'Angular'},
-            {id:3, url: logo_css, title:' Написание стилей', text:'CSS'},
-            {id:4, url: logo_html, title:'Использование языка разметки HTML', text:'HTML'},
-            {id:5, url: logo_redux, title:'Использование библиотеки Redux', text:'Redux'}
+            [{id: 0, backgroundImage: logo_js, title: 'разработка на Javascript', text: 'JS'},
+                {id: 1, backgroundImage: logo_react, title: 'Использование библиотеки  React', text: 'react'},
+                {id: 2, backgroundImage: logo_angular, title: 'Использование фреймворка Angular', text: 'Angular'}
+            ],
+
+            [{id: 3, backgroundImage: logo_css, title: ' Написание стилей', text: 'CSS'},
+                {id: 4, backgroundImage: logo_html, title: 'Использование языка разметки HTML', text: 'HTML'},
+                {id: 5, backgroundImage: logo_redux, title: 'Использование библиотеки Redux', text: 'Redux'}
+            ]
         ],
         currentIndex: 0,
         disablePrev: true,
@@ -32,36 +35,38 @@ class  Skills extends React.Component {
             this.setState({
                 currentIndex: this.state.currentIndex + 1,
                 disablePrev: false
+            }, ()=> {
+                if(this.state.currentIndex === this.state.skill.length -1){
+                    this.setState({
+                        disableNext: true
+                    })
+                }
             })
         }
-        if(this.state.currentIndex === this.state.skill.length - 1){
-            this.setState({
-                disableNext: true
-            })
-        }
+
     }
 
     prevSlide = () => {
 
         if (this.state.currentIndex > 0) {
-            this.setState({
+            this.setState( {
                 currentIndex: this.state.currentIndex - 1,
                 disableNext: false
+            }, () =>{
+                if(this.state.currentIndex === 0){
+                    this.setState( {
+                        disablePrev: true
+                    })
+                }
             })
         }
-        if(this.state.currentIndex === 0){
-            this.setState({
-                disablePrev: true
-            })
-        }
-
-
     }
 
 
     render = () => {
 
-        const MySkill = this.state.skill.map(sk => <Skill id={sk.id} slyle={sk.url} title={sk.title} text={sk.text}/>)
+        const MySkill = this.state.skill.map(sk => sk.map((s) => <Skill id={s.id} backgroundImage={s.backgroundImage} title={s.title} text={s.text}/>))
+
 
         // const logoJS = {
         //     backgroundImage: 'url(' + logo_js + ')',

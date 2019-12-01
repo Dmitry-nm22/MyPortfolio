@@ -3,6 +3,7 @@ import styles from './Main.module.css';
 import NavMenu from "./NavMenu";
 
 
+
 function Main() {
   return (
     <div className={styles.main}>
