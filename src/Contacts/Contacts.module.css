@@ -52,15 +52,23 @@
 
 
 .contactInfo button{
- width: 100px;
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background: #4985FF;
+    border: none;
+    color: white;
     outline: none;
+}
+.contactInfo button:hover{
+    background: #3658b0;
 }
 
 .contactInfo input, textarea{
     width: 100%;
     outline: none;
-
 }
+
 
 @media screen and (max-width: 504px){
     .contactInfo{

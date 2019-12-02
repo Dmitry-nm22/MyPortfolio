@@ -33,9 +33,6 @@
     color: #323232;
 }
 
-
-
-
 .mainContent{
     display: flex;
     min-height: 470px;
@@ -44,25 +41,25 @@
     align-items: center;
     flex-wrap: wrap;
 }
-
-
+.mainContent button{
+    margin: 10px 10px;
+}
 
 .skill{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
 }
 
+/*.skill {*/
+/*     display: flex;*/
+/*     flex-wrap: wrap;*/
+/* }*/
 
-
-
-.slider {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.slider__item{
+.skill__item{
     position: relative;
     overflow: hidden;
     display: flex;
@@ -73,14 +70,13 @@
     padding: 30px;
     box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-
 }
 
-.slider__item div{
+.skill__item div{
     position: relative;
 }
 
-.slider__item:before{
+.skill__item:before{
     content: '';
     position: absolute;
     left: 0;
@@ -93,42 +89,36 @@
     transition: all 0.2s;
 }
 
-.slider__image{
+.skill__image{
     position: absolute;
     left: 0;
     top: 0;
     z-index: 1;
-
-    /*-2*/
 }
 
-.slider__text{
+.skill__text{
     color: white;
 }
 
-
-.slider__item:hover:before{
+.skill__item:hover:before{
     background:rgba(64, 101, 255, 0.86);
 }
 
-
-.slider__button{
+.skill__button{
     border-radius: 30px;
-
 }
+
 
 @media screen and (max-width: 542px){
     .skill{
         width: 100%;
     }
 }
-
 @media screen and (max-width: 440px){
     .header span{
         font-size: 30px;
     }
 }
-
 @media screen and (max-width: 624px){
     .mainContent{
         justify-content: center;

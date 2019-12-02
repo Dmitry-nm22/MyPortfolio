@@ -1,5 +1,6 @@
 
 .menu-btn {
+    margin: 0 20px;
     display: block;
     width: 50px;
     height: 50px;
@@ -15,7 +16,7 @@
     left: 50%; margin-left: -10px;
     width: 20px;
     height: 2px;
-    background-color: #222;
+    background-color: #ffffff;
 }
 .menu-btn span::before,
 .menu-btn span::after {
@@ -57,7 +58,7 @@
 }
 .menu-nav {
     transition: 0.2s;
-    transform: scaleY(0) translateY(0%);
+    transform: scaleX(0) translateX(0%);
     transform-origin: right center;
     opacity: 0;
     visibility: hidden;
@@ -71,7 +72,7 @@
     border-bottom-left-radius: 50px;
 }
 .menu-nav_active {
-    transform: scaleY(1) translateY(0%);
+    transform: scaleX(1) translateX(0%);
     opacity: 1;
     visibility: visible;
 }
