@@ -2,8 +2,9 @@ import React from 'react';
 import styles from './Footer.module.css';
 import FooterMenu from "./FooterMenu";
 
-class  Footer extends React.Component {
 
+
+class  Footer extends React.Component {
   render = () => {
     return (
         <div className={styles.footer}>

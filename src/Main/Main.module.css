@@ -40,9 +40,9 @@
     background: #4985FF;
 }
 .container button{
-    Font-Family: 'Montserrat', sans-serif;
-    Font-Style: Medium;
-    Font-Size: 16px;
+    font-Family: 'Montserrat', sans-serif;
+    font-Style: medium;
+    font-Size: 16px;
     Line-Height: 19.5px;
     Vertical-Align: Top;
     color: white;

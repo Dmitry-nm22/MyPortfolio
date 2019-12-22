@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import Skill from "./Skill";
+
+
 import logo_js from ".././img/js_img.png"
 import logo_react from ".././img/react_img.png"
 import logo_angular from ".././img/angular.png"
@@ -72,9 +74,15 @@ class  Skills extends React.Component {
                 <div className={styles.header}>
                     <span className={styles.span__title}>Работа с несколькими языками  программирования и фреймворками</span>
                     <div className={styles.mainContent}>
-                        <button onClick={this.prevSlide} disabled={this.state.disablePrev}>prev</button>
+                        <a className={styles.button_slider}
+                             onClick={this.prevSlide}
+                             disabled={this.state.disablePrev}> <i className="fas fa-angle-double-left"> </i>
+                        </a>
                         {MySkill[this.state.currentIndex]}
-                        <button onClick={this.nextSlide} disabled={this.state.disableNext}>next</button>
+                        <a className={styles.button_slider}
+                             onClick={this.nextSlide}
+                             disabled={this.state.disableNext}> <i className="fas fa-angle-double-right"> </i>
+                        </a>
                     </div>
                 </div>
             </div>
