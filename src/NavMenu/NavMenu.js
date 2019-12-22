@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './NavMenu.module.css';
-import BurgerMenu from "./BurgerMenu";
+import BurgerMenu from "./BurgerMenu/BurgerMenu";
 
 function NavMenu() {
     return (
@@ -10,10 +10,10 @@ function NavMenu() {
                     <div className={styles.header__logo}>frnd</div>
 
                     <nav className={styles.nav}>
-                        <a className={styles.nav__link} href="#">HOME</a>
-                        <a className={styles.nav__link} href="#">SKILLS</a>
-                        <a className={styles.nav__link} href="#">PROJECT</a>
-                        <a className={styles.nav__link} href="#">CONTACTS</a>
+                        <a className={styles.nav__link} href="/main">HOME</a>
+                        <a className={styles.nav__link} href="/skills">SKILLS</a>
+                        <a className={styles.nav__link} href="/project">PROJECT</a>
+                        <a className={styles.nav__link} href="/contact">CONTACTS</a>
                     </nav>
                     <BurgerMenu className={styles.active} />
                 </div>

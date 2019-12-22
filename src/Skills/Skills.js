@@ -72,7 +72,7 @@ class  Skills extends React.Component {
         return (
             <div className={styles.skills}>
                 <div className={styles.header}>
-                    <span className={styles.span__title}>Работа с несколькими языками  программирования и фреймворками</span>
+                    <span className={styles.span__title}>Работаю с несколькими языками  программирования и фреймворками</span>
                     <div className={styles.mainContent}>
                         <a className={styles.button_slider}
                              onClick={this.prevSlide}

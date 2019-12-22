@@ -12,7 +12,7 @@ class  Skill extends React.Component {
                         <div>
                             <span className={styles.skill__text}>{this.props.text}</span>
                             <h3 className={styles.skill__title}>{this.props.title}</h3>
-                            <button className={styles.skill__button}>узнать подробней</button>
+                            <a href='#' className={styles.skill__button}>узнать подробней</a>
                         </div>
                     </div>
                 </div>
