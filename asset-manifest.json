@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.e0ef4422.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.00c30012.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.00c30012.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.5c13ddb9.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.1935fe68.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.1935fe68.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.c480b94a.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.c480b94a.js.map",
-    "static/js/2.695a1084.chunk.js": "/MyPortfolio/static/js/2.695a1084.chunk.js",
-    "static/js/2.695a1084.chunk.js.map": "/MyPortfolio/static/js/2.695a1084.chunk.js.map",
+    "static/js/2.7ecb5cef.chunk.js": "/MyPortfolio/static/js/2.7ecb5cef.chunk.js",
+    "static/js/2.7ecb5cef.chunk.js.map": "/MyPortfolio/static/js/2.7ecb5cef.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.2f8eceefcddaa63f2e127f335c5399eb.js": "/MyPortfolio/precache-manifest.2f8eceefcddaa63f2e127f335c5399eb.js",
+    "precache-manifest.7a16b85397eeac4a607a9ad006b3b048.js": "/MyPortfolio/precache-manifest.7a16b85397eeac4a607a9ad006b3b048.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/css/main.e0ef4422.chunk.css.map": "/MyPortfolio/static/css/main.e0ef4422.chunk.css.map",
-    "static/media/angular.png": "/MyPortfolio/static/media/angular.166fd059.png",
-    "static/media/html.ico": "/MyPortfolio/static/media/html.0071d3a9.ico",
+    "static/css/main.5c13ddb9.chunk.css.map": "/MyPortfolio/static/css/main.5c13ddb9.chunk.css.map",
     "static/media/Main.module.css": "/MyPortfolio/static/media/main_img.a230afe8.png",
-    "static/media/react_img.png": "/MyPortfolio/static/media/react_img.ee4d92d0.png",
-    "static/media/redux.png": "/MyPortfolio/static/media/redux.b95e4257.png",
+    "static/media/map.png": "/MyPortfolio/static/media/map.d8665ee8.png",
     "static/media/work.jpg": "/MyPortfolio/static/media/work.03fbbbda.jpg"
   }
 }
