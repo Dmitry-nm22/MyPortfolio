@@ -1,0 +1,35 @@
+.services{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    min-height: 80%;
+    min-width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    Font-Style: Bold;
+    Font-Size: 36px;
+    Line-Height: 52.66px;
+    Vertical-Align: Top;
+}
+
+.inner{
+    display: flex;
+    width: 100%;
+    min-height: 350px;
+    justify-content: space-between;
+    align-items: center;
+
+}

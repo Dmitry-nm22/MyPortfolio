@@ -11,7 +11,7 @@ function NavMenu() {
 
                     <nav className={styles.nav}>
                         <a className={styles.nav__link} href="/main">HOME</a>
-                        <a className={styles.nav__link} href="/skills">SKILLS</a>
+                        <a className={styles.nav__link} href="/skills">SERVICES</a>
                         <a className={styles.nav__link} href="/project">PROJECT</a>
                         <a className={styles.nav__link} href="/contact">CONTACTS</a>
                     </nav>
